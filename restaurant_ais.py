@@ -365,7 +365,7 @@ class LoginWindow:
     def __init__(self):
         self.window = tk.Tk()
         self.window.title("АИС Ресторан - Авторизация")
-        self.window.geometry("400x300")
+        self.window.geometry("400x350")
         self.window.resizable(False, False)
 
         self.db = DatabaseManager()
